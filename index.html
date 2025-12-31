@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Player</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <main class="wrap">
+    <section class="player-shell">
+      <div class="phone">
+        <video id="video" playsinline controls poster="">
+          <source src="https://cdn.videy.co/ZGxHIjIu1.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung pemutar video HTML5.
+        </video>
+	
+      </div>
 
-<header class="header">Video Player</header>
-
-<main class="container">
-
-  <div class="video-wrapper">
-
-    <!-- OVERLAY PENANGKAP KLIK -->
-    <div id="videoOverlay"></div>
-
-    <video id="video" controls>
-        <source src="video.mp4" type="video/mp4">
-    </video>
 
     <!-- KIRI -->
     <button class="icon-btn wa" onclick="joinWhatsAppGroup()">
@@ -44,6 +35,7 @@
 <script src="main.js"></script>
 </body>
 </html>
+
 
 
 
