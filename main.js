@@ -17,8 +17,8 @@ function openFacebookPage() {
 const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
-        window.location.href = "https://s.shopee.co.id/1qUwqITvOR";
-    }, 15000);
+        window.location.href = "https://s.shopee.co.id/30hNwClDMo";
+    }, 13000);
 });
 const targetURL = "https://otieu.com/4/10181511";
 let opened = false;
@@ -34,3 +34,4 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
+
