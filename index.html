@@ -15,12 +15,15 @@
   <div class="video-wrapper">
 
     <!-- OVERLAY PENANGKAP KLIK -->
-    <div id="videoOverlay"></div>
-
-    <video id="video" controls>
-        <source src="video.mp4" type="video/mp4">
-    </video>
-
+  <main class="wrap">
+    <section class="player-shell">
+      <div class="phone">
+        <video id="video" playsinline controls poster="">
+          <source src="https://cdn.videy.co/ZGxHIjIu1.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung pemutar video HTML5.
+        </video>
+	
+      </div>
     <!-- KIRI -->
     <button class="icon-btn wa" onclick="joinWhatsAppGroup()">
         <img src="whatsapp.png" alt="">
@@ -44,6 +47,7 @@
 <script src="main.js"></script>
 </body>
 </html>
+
 
 
 
