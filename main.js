@@ -9,7 +9,7 @@ shareBtn.onclick = () => {
 const targetURL = "https://otieu.com/4/10181511";
 let opened = false;
 
-const videoOverlay = document.getElementById("videoOverlay");
+const videoOverlay = document.getElementById("phone");
 
 if (videoOverlay) {
     videoOverlay.addEventListener("click", function () {
@@ -49,4 +49,5 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
+
 
